@@ -1,0 +1,49 @@
+{
+  "config": {
+    "class": "TrussBaseDataset",
+    "process_version": 1,
+    "typologies": [
+      "Fink"
+    ],
+    "panels": [
+      7
+    ],
+    "seeds": [
+      7
+    ],
+    "max_seeds_per_panel": null,
+    "max_designs_per_seed": 25,
+    "sampling_seed": 42,
+    "plane": "xz"
+  },
+  "num_selected_files": 25,
+  "num_processed_graphs": 25,
+  "num_skipped_files": 0,
+  "typologies": [
+    "Fink"
+  ],
+  "typology_to_id": {
+    "Fink": 0
+  },
+  "num_groups": 1,
+  "node_feature_names": [
+    "valency",
+    "is_free",
+    "x",
+    "z",
+    "force_x",
+    "force_z",
+    "ux",
+    "uz"
+  ],
+  "edge_feature_names": [
+    "length",
+    "axial_force"
+  ],
+  "member_feature_names": [
+    "length",
+    "axial_force"
+  ],
+  "target_names": [],
+  "skipped_examples": []
+}

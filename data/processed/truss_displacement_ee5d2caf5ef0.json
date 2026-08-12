@@ -1,0 +1,45 @@
+{
+  "config": {
+    "class": "TrussDisplacementDataset",
+    "process_version": 4,
+    "typologies": [
+      "Pratt"
+    ],
+    "panels": [
+      8
+    ],
+    "seeds": null,
+    "max_seeds_per_panel": 3,
+    "max_designs_per_seed": 5000,
+    "sampling_seed": 42,
+    "plane": "xz"
+  },
+  "num_selected_files": 13243,
+  "num_processed_graphs": 13243,
+  "num_skipped_files": 0,
+  "typologies": [
+    "Pratt"
+  ],
+  "typology_to_id": {
+    "Pratt": 0
+  },
+  "num_groups": 3,
+  "node_feature_names": [
+    "coord_1_norm",
+    "coord_2_norm",
+    "load_1_norm",
+    "load_2_norm",
+    "is_free",
+    "degree_norm"
+  ],
+  "edge_feature_names": [
+    "delta_coord_1_norm",
+    "delta_coord_2_norm"
+  ],
+  "member_feature_names": [],
+  "target_names": [
+    "disp_1_norm",
+    "disp_2_norm"
+  ],
+  "skipped_examples": []
+}
