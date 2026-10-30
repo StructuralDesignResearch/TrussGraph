@@ -158,6 +158,15 @@ If a matching checkpoint exists, the notebook loads it and skips retraining.
 to be added
 
 ```bibtex
+@article{mirtsopoulos_TrussGraphDataset_2026,
+  title = {{{TrussGraph}}: {{A}} Dataset of Graph-Based Trusses for Machine Learning and Structural Design Applications},
+  author = {Mirtsopoulos, Ioannis and Gacem, Abderaouf and Pauli, Jacqueline},
+  year = 2026,
+  month = oct,
+  journal = {Nature: Scientific Data},
+  issn = {2052-4463},
+  doi = {10.1038/s41597-026-08450-2},
+}
 
 ```
 
